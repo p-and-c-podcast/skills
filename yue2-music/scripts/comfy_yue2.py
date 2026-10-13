@@ -16,7 +16,7 @@ Usage:
 
 Exit 0: complete; 1: finished but needs review (truncation or ABC check); 2: error.
 
-Added to the upstream yue2-music skill; licensed under Apache 2.0 like the rest of this skill.
+Added to the upstream yue2-music skill; licensed under the GNU GPL v3 (see COPYING).
 """
 
 import argparse

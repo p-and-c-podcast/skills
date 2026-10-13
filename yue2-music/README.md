@@ -232,7 +232,11 @@ For all commands and all limits of Backend A, refer to
 
 ## 8. Licenses
 
-- The skill instructions, helpers, and templates use the Apache License 2.0. Refer to [LICENSE](LICENSE).
+This package contains files with three different licenses.
+
+- This package as a whole uses the GNU General Public License version 3 (GPLv3). Refer to [COPYING](COPYING).
+- The files that this package adds, and the changes to the upstream files, use GPLv3. The section [Changes from the upstream skill](#changes-from-the-upstream-skill) lists these files and changes.
+- The upstream skill instructions, helpers, and templates use the Apache License 2.0. Copyright (c) 2026 the YuE2 authors. Refer to [LICENSE](LICENSE). These files keep the Apache License 2.0 terms.
 - The helpers in the `instrumental` folder use the MIT License. Refer to [instrumental/LICENSE](instrumental/LICENSE).
 - The model weights are not in this package. Their model cards give the CC BY-NC 4.0 license. This license permits noncommercial use only.
 
@@ -248,6 +252,7 @@ These are the changes:
 - Added `references/comfyui-backend.md`. This file tells the agent how to use the ComfyUI backend.
 - Added this `README.md` file.
 - Added `.gitattributes`. This file keeps the same line endings on all operating systems.
+- Added `COPYING`. This file contains the GPLv3 text.
 - Changed `SKILL.md`. The description now includes ComfyUI. A new section tells the agent how to select the backend. Notes now tell the agent which steps to skip with ComfyUI. The line that recommends a different agent is removed.
 - Changed `instrumental/SKILL.md`. A note now gives the ComfyUI steps. The line that recommends a different agent is removed.
 - Changed `instrumental/bundle-manifest.json`. The hash of `instrumental/SKILL.md` is updated.

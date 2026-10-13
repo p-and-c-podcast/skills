@@ -79,6 +79,8 @@ for SheetSage2 because dependency pins differ. Download the public model snapsho
 record their revisions. This skill's original instructions, helpers, and templates are
 licensed under [Apache 2.0](LICENSE). Copyright (c) 2026 the YuE2 authors.
 The bundled instrumental helpers retain their [MIT license](instrumental/LICENSE).
+This modified distribution, including the ComfyUI bridge, is distributed under the
+[GNU GPL v3](COPYING); the upstream files keep their Apache 2.0 and MIT terms.
 Model weights and third-party dependencies retain their applicable licenses.
 
 Use the supported baseline: one request at a time, BF16-capable NVIDIA GPU with 24 GB
