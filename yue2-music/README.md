@@ -114,9 +114,15 @@ You must have git.
 
 ### 3.3 Install from the zip file
 
-1. Unzip the file. You get a folder with the name `yue2-music`.
-2. Put the `yue2-music` folder in one of the two locations in the table above.
-3. Do the steps in [3.4](#34-make-sure-that-the-installation-is-correct).
+Use this procedure if you do not have Node.js or git.
+
+1. Go to the [latest release](https://github.com/p-and-c-podcast/skills/releases/latest) of the repository.
+2. Download the file `yue2-music-skill.zip`.
+3. Unzip the file. You get a folder with the name `yue2-music`.
+4. Put the `yue2-music` folder in one of the two locations in the table above.
+5. Do the steps in [3.4](#34-make-sure-that-the-installation-is-correct).
+
+Each release has its own zip file. The zip file of the latest release contains the latest version of the skill.
 
 ### 3.4 Make sure that the installation is correct
 
